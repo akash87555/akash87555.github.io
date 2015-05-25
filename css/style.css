@@ -1,0 +1,62 @@
+body{background: url('../img/pattern.jpg') repeat;}
+.blue{
+	background-color: #00acdc;
+	height: 30px;
+	margin-top: 20%;
+}
+.red{
+	background-color: #ee2f49;
+	height: 60px;
+	margin-top: 30px;
+}
+.mainBadge{
+	position: absolute;
+	top: 9%;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.row{margin-right: 0px !important;
+margin-left: 0px !important;
+}
+#nextLevel{
+	margin-top: 12%;
+}
+#next{
+	margin-top: 4%;
+}
+a{
+	text-decoration: none !important;
+	
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	.mainBadge{ width: 300px; top:9%;}
+  	.blue{margin-top: 48%;}
+  	h2{font-size: 24px !important;}
+  	h3{font-size: 18px !important;}
+  	#nextLevel{margin-top: 16% !important;}
+  	#next{margin-top: 20% !important; margin-bottom: 8% !important;}
+}
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) {
+  	.mainBadge{width: 347px;}
+
+}
+@media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+  	.mainBadge{width: 30%;}
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .mainBadge{ width: 300px; top:9%;}
+    .blue{margin-top: 48%;}
+    h2{font-size: 24px !important;}
+    h3{font-size: 18px !important;}
+    #nextLevel{margin-top: 16% !important;}
+    #next{margin-top: 20% !important; margin-bottom: 8% !important;}
+}
